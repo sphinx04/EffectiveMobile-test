@@ -11,6 +11,8 @@
 		8A8EF2B729C31E910032039E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8EF2B629C31E910032039E /* ContentView.swift */; };
 		8A8EF2B929C31E960032039E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A8EF2B829C31E960032039E /* Assets.xcassets */; };
 		8A8EF2BC29C31E960032039E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A8EF2BB29C31E960032039E /* Preview Assets.xcassets */; };
+		8A8EF2C529C323AB0032039E /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8EF2C429C323AB0032039E /* SignInView.swift */; };
+		8A8EF2C729C32DCA0032039E /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8EF2C629C32DCA0032039E /* LogInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8A8EF2B629C31E910032039E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A8EF2B829C31E960032039E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A8EF2BB29C31E960032039E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A8EF2C429C323AB0032039E /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		8A8EF2C629C32DCA0032039E /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				8A8EF2B429C31E910032039E /* EffectiveMobile_testApp.swift */,
 				8A8EF2B629C31E910032039E /* ContentView.swift */,
+				8A8EF2C429C323AB0032039E /* SignInView.swift */,
+				8A8EF2C629C32DCA0032039E /* LogInView.swift */,
 				8A8EF2B829C31E960032039E /* Assets.xcassets */,
 				8A8EF2BA29C31E960032039E /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A8EF2C529C323AB0032039E /* SignInView.swift in Sources */,
 				8A8EF2B729C31E910032039E /* ContentView.swift in Sources */,
+				8A8EF2C729C32DCA0032039E /* LogInView.swift in Sources */,
 				8A8EF2B529C31E910032039E /* EffectiveMobile_testApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
